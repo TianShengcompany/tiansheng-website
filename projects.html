@@ -1,0 +1,306 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects &mdash; TianSheng Premium Window & Door Installations</title>
+    <meta name="description" content="Explore TianSheng's global project portfolio &mdash; luxury residential, commercial, hospitality, and public projects spanning 30+ countries.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-door-open"></i>
+                TianSheng <span>天盛</span>
+            </a>
+            <ul class="nav-links" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1 class="reveal">Global Projects</h1>
+            <p class="reveal">TianSheng systems installed in 30+ countries worldwide</p>
+            <div class="breadcrumb reveal">
+                <a href="index.html">Home</a> / <span>Projects</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="section projects-counter-section">
+        <div class="container">
+            <div class="counter-grid">
+                <div class="counter-card reveal">
+                    <h3>30+</h3>
+                    <p>Export Countries</p>
+                </div>
+                <div class="counter-card reveal">
+                    <h3>200+</h3>
+                    <p>Completed Projects</p>
+                </div>
+                <div class="counter-card reveal">
+                    <h3>500K+</h3>
+                    <p>Square Meters Installed</p>
+                </div>
+                <div class="counter-card reveal">
+                    <h3>98%</h3>
+                    <p>Client Satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="section" style="background: var(--white);">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Portfolio</span>
+                <h2 class="section-title">Featured<br>Installations</h2>
+                <p class="section-subtitle">A selection of projects that showcase the versatility and performance of TianSheng systems.</p>
+            </div>
+            <div class="projects-grid" style="grid-template-columns: repeat(3, 1fr);">
+                <div class="project-card reveal" style="position: relative;">
+                    <img src="images/projects/australia-villa.jpg" alt="Australian Luxury Villa, Sydney" loading="lazy">
+                    <div class="project-card-overlay">
+                        <span class="project-card-tag">Residential</span>
+                        <h3>Australian Luxury Villa, Sydney</h3>
+                        <p>TS-70 Thermal Break · TS-160 Lift & Slide · 3,800 m²</p>
+                    </div>
+                    <div class="case-study">
+                        <button class="case-study-toggle" onclick="toggleCaseStudy(this)">
+                            <i class="fas fa-chevron-down"></i> View Case Study
+                        </button>
+                        <div class="case-study-body">
+                            <h4>The Brief</h4>
+                            <p>A private oceanfront villa in Sydney's exclusive Vaucluse district. The owner demanded floor-to-ceiling glazing with zero visual obstruction and flawless thermal performance to manage Australia's harsh coastal climate.</p>
+                            <h4>Solution</h4>
+                            <p>We supplied TS-70 thermal break casement windows for all bedroom and living room facades, paired with TS-160 lift & slide doors to the terrace for a seamless indoor-outdoor flow. Low-E double glazing with argon fill ensures U-value of 1.6 W/m²K.</p>
+                            <h4>Products Used</h4>
+                            <ul>
+                                <li>TS-70 Thermal Break Casement Window &mdash; 2,400 m²</li>
+                                <li>TS-160 Lift & Slide Door &mdash; 1,400 m²</li>
+                                <li>Low-E IG units (6+12Ar+6mm)</li>
+                                <li>RAL 7016 Anthracite Grey powder coating</li>
+                            </ul>
+                            <h4>Key Results</h4>
+                            <ul>
+                                <li>U-value: 1.6 W/m²K &mdash; 40% better than local code</li>
+                                <li>42 dB acoustic insulation against ocean surf</li>
+                                <li>Completed within 8 weeks from order</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal" style="position: relative;">
+                    <img src="images/projects/kenya-hotel.jpg" alt="Accra Hotel, Nairobi, Kenya" loading="lazy">
+                    <div class="project-card-overlay">
+                        <span class="project-card-tag">Hospitality</span>
+                        <h3>Accra Hotel, Nairobi, Kenya</h3>
+                        <p>TS-CW Curtain Wall · TS-70 Casement · Low-E Glass · 12,500 m²</p>
+                    </div>
+                    <div class="case-study">
+                        <button class="case-study-toggle" onclick="toggleCaseStudy(this)">
+                            <i class="fas fa-chevron-down"></i> View Case Study
+                        </button>
+                        <div class="case-study-body">
+                            <h4>The Brief</h4>
+                            <p>A 5-star international hotel brand's flagship East African property in Nairobi's Upper Hill business district. The spec required a visually striking glass facade with controlled solar gain for the equatorial climate and premium acoustic comfort for guest rooms.</p>
+                            <h4>Solution</h4>
+                            <p>TS-CW stick curtain wall system spans the 18-storey facade, with TS-70 casement windows for all 280 guest rooms. Low-E solar control glass (SHGC 0.28) reduces cooling load while maintaining generous daylight. Concealed drainage and pressure-equalised design handle Nairobi's heavy bimodal rainfall.</p>
+                            <h4>Products Used</h4>
+                            <ul>
+                                <li>TS-CW Curtain Wall &mdash; 8,200 m²</li>
+                                <li>TS-70 Casement Window &mdash; 4,300 m²</li>
+                                <li>Low-E Solar Control Glass (SHGC 0.28)</li>
+                                <li>PVDF coating in custom bronze finish</li>
+                            </ul>
+                            <h4>Key Results</h4>
+                            <ul>
+                                <li>Cooling load reduced by 32% vs standard glass</li>
+                                <li>Achieved 35 dB Rw acoustic rating in guest rooms</li>
+                                <li>Facade installation completed in 14 months</li>
+                                <li>Winner: Kenya Building Awards 2025 &mdash; Best Hotel Facade</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal" style="position: relative;">
+                    <img src="images/projects/zimbabwe-airport.jpg" alt="Robert Gabriel Mugabe International Airport, Zimbabwe" loading="lazy">
+                    <div class="project-card-overlay">
+                        <span class="project-card-tag">Public</span>
+                        <h3>Robert Gabriel Mugabe International Airport, Harare</h3>
+                        <p>TS-CW Unitised Curtain Wall · TS-80 Sliding · 28,000 m²</p>
+                    </div>
+                    <div class="case-study">
+                        <button class="case-study-toggle" onclick="toggleCaseStudy(this)">
+                            <i class="fas fa-chevron-down"></i> View Case Study
+                        </button>
+                        <div class="case-study-body">
+                            <h4>The Brief</h4>
+                            <p>A major infrastructure upgrade to Zimbabwe's primary international gateway. The new terminal expansion demanded a high-performance curtain wall system capable of withstanding high wind loads, rapid temperature swings, and providing bird-safe glazing for the adjacent wetland environment.</p>
+                            <h4>Solution</h4>
+                            <p>TS-CW unitised curtain wall (pre-assembled panel system) was selected for its superior quality control and rapid on-site installation. TS-80 sliding windows serve the back-of-house areas. Fritted glass patterns on the facade reduce bird collisions while adding architectural character.</p>
+                            <h4>Products Used</h4>
+                            <ul>
+                                <li>TS-CW Unitised Curtain Wall &mdash; 22,000 m²</li>
+                                <li>TS-80 Sliding Window &mdash; 6,000 m²</li>
+                                <li>Fritted bird-safe glass (6+12Ar+6mm laminated)</li>
+                                <li>Silver anodised finish (AA15)</li>
+                            </ul>
+                            <h4>Key Results</h4>
+                            <ul>
+                                <li>Wind load resistance: Class 9 (EN 12210)</li>
+                                <li>8 weeks faster than traditional stick build</li>
+                                <li>Annual capacity expanded from 1.5M to 6M passengers</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal" style="position: relative;">
+                    <img src="images/projects/rwanda-garden-city.jpg" alt="Garden City Complex, Kigali, Rwanda" loading="lazy">
+                    <div class="project-card-overlay">
+                        <span class="project-card-tag">Mixed-Use</span>
+                        <h3>Garden City Complex, Kigali, Rwanda</h3>
+                        <p>TS-70 Casement · TS-130 Folding · TS-80 Sliding · 22,000 m²</p>
+                    </div>
+                    <div class="case-study">
+                        <button class="case-study-toggle" onclick="toggleCaseStudy(this)">
+                            <i class="fas fa-chevron-down"></i> View Case Study
+                        </button>
+                        <div class="case-study-body">
+                            <h4>The Brief</h4>
+                            <p>Kigali's largest mixed-use development &mdash; a shopping mall, office tower, and serviced apartments all in one complex. The architect wanted an open, airy feel throughout with maximum use of natural light while controlling heat gain at 1,560 m elevation.</p>
+                            <h4>Solution</h4>
+                            <p>TS-70 casement windows for the residential tower sections, TS-130 folding doors for the ground-floor retail and restaurant terraces (creating seamless indoor-outdoor dining), and TS-80 sliding windows for the office floors. Consistent RAL 9016 white finish unifies the diverse applications.</p>
+                            <h4>Products Used</h4>
+                            <ul>
+                                <li>TS-70 Casement Window &mdash; 10,000 m²</li>
+                                <li>TS-130 Folding Door &mdash; 4,500 m²</li>
+                                <li>TS-80 Sliding Window &mdash; 7,500 m²</li>
+                                <li>RAL 9016 Pure White powder coating</li>
+                            </ul>
+                            <h4>Key Results</h4>
+                            <ul>
+                                <li>Natural daylight factor >5% in 90% of occupied spaces</li>
+                                <li>Retail terraces achieved full weather protection with TS-130</li>
+                                <li>Project completed on budget within 18 months</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal" style="position: relative;">
+                    <img src="images/projects/saudi-residence.jpg" alt="108 Residence Compound, Riyadh, Saudi Arabia" loading="lazy">
+                    <div class="project-card-overlay">
+                        <span class="project-card-tag">Residential</span>
+                        <h3>108 Residence Compound, Riyadh, Saudi Arabia</h3>
+                        <p>TS-70 Thermal Break · TS-160 Lift & Slide · Solar Control Glass · 15,000 m²</p>
+                    </div>
+                    <div class="case-study">
+                        <button class="case-study-toggle" onclick="toggleCaseStudy(this)">
+                            <i class="fas fa-chevron-down"></i> View Case Study
+                        </button>
+                        <div class="case-study-body">
+                            <h4>The Brief</h4>
+                            <p>A gated compound of 108 luxury villas in Riyadh's prestigious Al Olaya district. The developer needed systems that could withstand extreme summer heat (50°C), sandstorms, and provide exceptional thermal insulation to minimise air conditioning costs.</p>
+                            <h4>Solution</h4>
+                            <p>TS-70 thermal break casement windows with triple glazing and solar control coating for all villa facades. TS-160 lift & slide doors create expansive entertainment spaces connecting living rooms to shaded outdoor courtyards. All hardware specified with H59 brass for corrosion resistance in the desert environment.</p>
+                            <h4>Products Used</h4>
+                            <ul>
+                                <li>TS-70 Thermal Break Casement Window &mdash; 10,500 m²</li>
+                                <li>TS-160 Lift & Slide Door &mdash; 4,500 m²</li>
+                                <li>Triple glazing: 6+6lowE+18Ar+6+18Ar+6mm</li>
+                                <li>RAL 9006 Silver Metallic powder coating</li>
+                            </ul>
+                            <h4>Key Results</h4>
+                            <ul>
+                                <li>U-value: 1.1 W/m²K with triple glazing</li>
+                                <li>A/C energy costs reduced by 45% vs code minimum</li>
+                                <li>Sand-tested to DIN EN 12208 Class 9A</li>
+                                <li>All 108 villas delivered in 11-month phased schedule</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+    function toggleCaseStudy(btn) {
+        btn.classList.toggle('active');
+        const body = btn.nextElementSibling;
+        body.classList.toggle('open');
+    }
+    </script>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3><i class="fas fa-door-open"></i> TianSheng <span>天盛</span></h3>
+                    <p>Premium aluminum system windows, doors, and curtain walls &mdash; engineered for the world's most demanding architectural projects.</p>
+                    <div class="footer-social">
+                        <a href="https://wa.me/8613650199248" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="products.html">Thermal Break Windows</a></li>
+                        <li><a href="products.html">Lift & Slide Doors</a></li>
+                        <li><a href="products.html">Folding Doors</a></li>
+                        <li><a href="products.html">Curtain Walls</a></li>
+                        <li><a href="products.html">Sliding Windows</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +86 13650199248</li>
+                        <li><i class="fas fa-envelope"></i> liuxuexin19961211@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> No. 8 TianSheng Avenue, Foshan, Guangdong, China</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TianSheng Aluminum Co., Ltd. All rights reserved. | 天盛铝业 | 高端门窗系统制造商</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/8613650199248" target="_blank" class="whatsapp-float" aria-label="Contact via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
